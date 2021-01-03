@@ -2,6 +2,7 @@
   "name": "dingremidners",
   "version": "0.0.1",
   "private": true,
+  "main": "index.js",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -17,10 +18,11 @@
     "expo": "^40.0.0",
     "react": "16.13.1",
     "react-native": "0.63.3",
-    "react-native-gesture-handler": "^1.9.0",
+    "react-native-gesture-handler": "~1.8.0",
     "react-native-reanimated": "^1.13.2",
     "react-native-safe-area-context": "^3.1.9",
-    "react-native-screens": "^2.16.1"
+    "react-native-scenes": "^0.4.4",
+    "react-native-screens": "~2.15.0"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
