@@ -1,11 +1,12 @@
 import React from 'react';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import Login from '../components/Login'
 
-const LoginScreen = () => {
+const LoginScreen = ({navigation}: any) => {
     return (
-        <>
-            <Login></Login>
-        </>
+        <SafeAreaView>
+            <Login navigation={navigation}></Login>
+        </SafeAreaView>
     )
 }
 
