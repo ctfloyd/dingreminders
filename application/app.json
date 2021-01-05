@@ -1,4 +1,11 @@
 {
   "name": "dingremidners",
-  "displayName": "dingremidners"
+  "displayName": "dingremidners",
+  "expo": {
+    "name": "dingremidners",
+    "slug": "dingreminders",
+    "ios": {
+      "bundleIdentifier": "dingreminders"
+    }
+  }
 }
